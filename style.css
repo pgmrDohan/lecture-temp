@@ -1,0 +1,120 @@
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #e8ecf1;
+}
+
+body {
+    width: 800px;
+    margin: 0 auto 0 0;
+    background-color: #e8ecf1;
+    padding: 20px;
+}
+
+/* 상단 프로필 카드 */
+.profile-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 350px;
+    margin: 0 auto 30px 0;
+}
+
+.profile-card img {
+    display: block;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.profile-card h1 {
+    font-size: 25px;
+    text-align: left;
+    margin: 15px 0 5px 0;
+    padding: 0;
+    color: #000;
+}
+
+.profile-card .role {
+    font-size: 14px;
+    color: #4a6ee0;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.profile-card .intro {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* 하단 상세 카드 */
+.detail-card {
+    background-color: #ffffff;
+    padding: 30px 40px 40px 40px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.detail-card h1 {
+    font-size: 35px;
+    text-align: left;
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: #000;
+}
+
+.detail-card .role {
+    font-size: 16px;
+    color: #4a6ee0;
+    font-weight: bold;
+    margin: 0;
+}
+
+.detail-card .track {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0 0 0;
+}
+
+h2 {
+    font-size: 22px;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.detail-card p {
+    color: #333;
+}
+
+.detail-card ul {
+    padding-left: 20px;
+}
+
+.detail-card ul li {
+    font-size: 16px;
+    color: #333;
+}
+
+.detail-card a {
+    color: #4a6ee0;
+    text-decoration: none;
+}
+
+.detail-card a:hover {
+    text-decoration: underline;
+}
+
+address {
+    font-style: normal;
+}
